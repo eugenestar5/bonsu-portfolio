@@ -1,0 +1,387 @@
+:root{
+    --dark: #13293d;
+    --border: 3px solid rgb(119, 196, 199);
+    --color: rgb(119, 196, 199);
+    --backgroundColor: rgb(53, 49, 49);
+    --borderBar: 3px solid #13293d;
+}
+
+
+/* Body Element */
+body {
+    background-color: #ffffff;
+}
+
+
+/* TopHeader Class Selector */
+.TopHeader {
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--backgroundColor);
+}
+
+/* h1 in TopHeader class selector */
+.TopHeader h1 {
+    display: inline-block;
+    font-size: 38px;
+    color: var(--dark);
+    background-color: var(--color);
+    width: 320px;
+    text-align: center;
+    font: san-serif;
+    border-radius: 10px;
+}
+
+
+/*The div in the TopHeader class */
+.TopHeader div {
+    padding-top: 15px; 
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* div that have unordered list and list elements that is withing the TopHeader class */
+.TopHeader div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* anchor element within the TopHeader class */
+a {
+    color: var(--color);
+    margin-bottom: 1px;
+    text-decoration: none;
+}
+
+/* class selector for a Div */
+.topSection {
+    position: relative;
+}
+
+/* class selector for h3 element */
+.subtitle{
+    position: absolute;
+    bottom: 45px;
+    right: 40px;
+    font-size: 20px;
+    color: var(--dark);
+    background-color: var(--color);
+    padding: 10px;
+    border-radius: 10px;
+    width: 600px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+/* img element in the div class selector */
+.topSection img{
+    height: 100px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-position: center;
+}
+
+/* Class selector for section element */
+.FirstSection{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Class selector for a Span element  */
+.Me{
+    margin-left: 70px;
+}
+
+/* class selector for h3 element */
+.AboutMe{
+    flex: 1;
+    margin: 0px 15px 30px 80px;
+    padding: 0px 0px 0px 28px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--dark);
+
+}
+.AboutMeParagraph{
+    margin-left: 10px;
+}
+
+/* The div element within the FirstSection class selector */
+.FirstSection div{
+     flex: 15;
+     padding: 5px 5px 0px 15px;
+     margin-left: 3px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     color: var(--dark);
+     border-left: var(--borderBar);
+     height: 130px; 
+}
+
+/* class selector for image element */
+.EugeneImg{
+    width: 180px;
+    height: 130px;
+    margin: 0px 55px 15px 0px;
+    border-radius: 20px;
+    border: var(--border);  
+}
+
+/* EugeneImg class hover psuedo class */
+.EugeneImg:hover{
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+}
+
+/* class selector for section */
+.SecondSection{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 5px 0px 22px;
+}
+
+/* class Selector for the h3 element  */
+.work{
+    margin: 0px 20px 0px 90px;
+    padding: 0px 10px 10px 20px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-spacing: 100px;
+    color: var(--dark);
+    border-right: var(--borderBar); 
+    height: 100px;
+}
+
+/* Class selector for Div element */
+.MernImg, .NodeImg {
+    display: flex;
+    position: relative; 
+    
+}
+
+/* Image class selector for the image element */
+.MernImg img, .NodeImg img{
+    margin: 5px 0px 5px 10px;
+    border: var(--border);
+    width: 780px; 
+    height: 240px; 
+}
+
+
+/* Class selector for h2 elements within a Div element */
+.MernImg h2, .NodeImg h2{
+    position: absolute;
+    color: var(--dark);
+    background-color: var(--color);
+    bottom: 30px;
+    left: 13px;
+    font-size: 20px;
+    width: 200px;
+    padding: 10px;
+}
+
+/* class selector for Div elements */
+.firstDiv, .secondDiv, .thirdDiv, .forthDiv {
+    display: flex;
+    position: relative; 
+    /* margin-top:-270px; */
+}
+
+/* class selector for image element within a Div */
+.firstDiv img {
+    margin: 0px 1px 1px 274px; 
+    border: var(--border);
+    width: 390px;  
+    /* height: 240px;  */
+}
+
+/* class selector for image element within a Div */
+.secondDiv img {
+    margin: 0px 1px 1px 2px; 
+    border: var(--border);
+    width: 387px;
+    /* height: 240px;  */
+}
+
+/* class selector for image element within a Div */
+ .thirdDiv img {
+    margin: 0px 1px 2px 8px; 
+    border: var(--border);
+    width: 390px;    
+}
+
+/* class selector for image element within a Div */
+.forthDiv img {
+    margin: 0px 1px 2px 2px; 
+    border: var(--border);
+    width: 387px;    
+}
+
+/* Class selector for Div for h2 element within it */
+ .firstDiv h2{
+    position: absolute;
+    color: var(--dark);
+    background-color: var(--color);
+    bottom: 20px;
+    left: 275px;
+    font-size: 20px;
+    width: 80px;
+    padding: 10px;
+} 
+
+/* Class selector for Div for h2 element within it */
+.secondDiv h2{
+    position: absolute;
+    color: var(--dark);
+    background-color: var(--color);
+    bottom: 20px;
+    left: 5px;
+    font-size: 20px;
+    width: 130px;
+    padding: 10px;
+} 
+
+/* Class selector for Div for h2 element within it */
+.thirdDiv h2{
+    position: absolute;
+    color: var(--dark);
+    background-color: var(--color);
+    bottom: 20px;
+    left: 10px;
+    font-size: 20px;
+    width: 180px;
+    padding: 10px;
+} 
+
+/* Class selector for Div for h2 element within it */
+.forthDiv h2{
+    position: absolute;
+    color: var(--dark);
+    background-color: var(--color);
+    bottom: 20px;
+    left: 5px;
+    font-size: 20px;
+    width: 120px;
+    padding: 10px;
+} 
+
+
+/* Class selector for section element */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Class selector for a Span element  */
+.Info{
+    margin-left: 110px;
+}
+
+/* class selector for footer h2 element */
+footer h2{
+    margin: 50px 0px 30px 20px;
+    padding: 0px 15px 0px 28px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--dark);
+    border-right: var(--borderBar); 
+}
+
+/* class selector for div element */
+.contactInfo{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 80px 20px 20px 30px;
+    justify-content: center;
+    padding: 0px 10px 10px 10px;
+    color: var(--dark);
+    /* width: 50px; */
+}
+
+/* class selector for div element for unordered list  and list element within it*/
+.ContactInfo ol, li {
+    display: inline-block;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+/* media quries element for multiple screensize */
+
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+    .MernImg img{
+    width: 570px;
+    margin: 50px 20px 2px 10px
+    
+  }
+
+   .NodeImg img{
+    width: 570px;
+    margin: 0px 0px 5px 270px
+  }
+
+ .NodeImg h2{
+    position: absolute;
+    color: var(--dark);
+    background-color: var(--color);
+    bottom: 30px;
+    left: 270px;
+    font-size: 20px;
+    width: 200px;
+    padding: 10px;
+  }
+
+   .firstDiv img, .secondDiv img, .thirdDiv img, .forthDiv img{
+    width: 570px;
+    margin-left: 271px;
+  }
+
+  .secondDiv h2, .thirdDiv h2, .forthDiv h2{
+    left: 270px;
+  }
+}
+
+
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+    .MernImg img{
+        width: 570px;
+        margin: 50px 20px 2px 250px
+        
+      }
+
+      .NodeImg img{
+        width: 570px;
+        margin-left: 250px;
+      }
+
+      .firstDiv img, .secondDiv img, .thirdDiv img, .forthDiv img{
+        width: 570px;
+        margin-left: 250px;
+      }
+
+      .MernImg h2{
+        left: 270px;
+      }
+
+      .contactInfo{
+        font-size: 20px;
+        font-weight: bold;
+        margin: -100px 20px 20px 275px;
+        justify-content: center;
+        padding: 0px 10px 10px 10px;
+        color: var(--dark);
+        /* width: 50px; */
+    }
+
+  }
+
+
+  /* Small smartphones - image placeholders change color */
+@media screen and (max-width: 576px) {
+    
+    
+  }
