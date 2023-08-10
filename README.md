@@ -9,7 +9,7 @@ This project is a brief explanation of my experience I have gained in my years o
 
 The following image demonstrates the web application's appearance and functionality:
 
-![There are four links and 6 images that depicts my experience and the page has 3 section, namely About Me, Work, and contact](./assets/images/ReadMeImg.png)
+![There are four links and 6 images that depicts my experience and the page has 3 section, namely About Me, Work, and contact](./assets/images/Project3.jpg)
 
 * About Me: It gives a brief description of myself and my skill-set.
 
