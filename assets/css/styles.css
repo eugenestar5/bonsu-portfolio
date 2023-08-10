@@ -10,6 +10,7 @@
 /* Body Element */
 body {
     background-color: #ffffff;
+    width: 100%;
 }
 
 
@@ -298,7 +299,7 @@ footer h2{
     justify-content: center;
     padding: 0px 10px 10px 10px;
     color: var(--dark);
-    /* width: 50px; */
+    width: 80%; 
 }
 
 /* class selector for div element for unordered list  and list element within it*/
@@ -308,19 +309,28 @@ footer h2{
     /* text-align: center; */
 }
 
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* media quries element for multiple screensize */
 
 /* Tablets - header changes color */
 @media screen and (max-width: 992px) {
     .MernImg img{
-    width: 570px;
-    margin: 50px 20px 2px 10px
+    width: 70px;
+    margin: 10px 20px 2px 10px;
     
   }
 
+  .NodeImg {
+    margin-left: 262px; 
+  }
+
    .NodeImg img{
-    width: 570px;
-    margin: 0px 0px 5px 270px
+    width: 70px;
+    margin: 0px 0px 5px 50px
   }
 
  .NodeImg h2{
@@ -334,33 +344,89 @@ footer h2{
     padding: 10px;
   }
 
-   .firstDiv img, .secondDiv img, .thirdDiv img, .forthDiv img{
-    width: 570px;
-    margin-left: 271px;
+   .firstDiv img, .secondDiv img {
+    width: 70px;
+    margin-left: 1px;
+  }
+
+  .thirdDiv {
+    margin-left: 255px;
   }
 
   .secondDiv h2, .thirdDiv h2, .forthDiv h2{
-    left: 270px;
+    left: 2px;
   }
+
+  .contactInfo {
+    margin-left: 250px;
+    margin-top: -90px;
+    font-size: 20px;
+  }
+
+  
+
 }
 
 
 /* Large smartphones - navbar changes color */
 @media screen and (max-width: 768px) {
+
+  .AboutMe {
+    margin-left: -20px;
+    font-size: 40px;
+}
+
+.Me {
+  margin-left: 60px;
+}
+
+  .FirstSection div {
+    height: 0px;
+  }
+
+  .SecondSection{
+    margin-left: 5px;
+  }
+
+  .work {
+    margin-left: -15px;
+    font-size: 40px;
+    margin-top: 130px;
+  }
+
+  .MernImg {
+    margin-left: 120px;
+    margin-top: -100px;
+    margin-right: 120px;
+    width: 630px;
+  }
+
+  .NodeImg {
+    margin-left: 120px;
+    margin-top: 0px;
+    margin-right: 120px;
+    width: 630px;
+  }
+
     .MernImg img{
-        width: 570px;
-        margin: 50px 20px 2px 250px
+        width: 70px;
+        margin: -5px 20px 2px 250px
         
       }
 
       .NodeImg img{
-        width: 570px;
+        width: 70px;
         margin-left: 250px;
       }
 
+
+      .secondDiv h2, .forthDiv h2{
+        left: 260px;
+      } 
+
       .firstDiv img, .secondDiv img, .thirdDiv img, .forthDiv img{
         width: 570px;
-        margin-left: 250px;
+        margin-left: 260px;
       }
 
       .MernImg h2{
@@ -368,20 +434,144 @@ footer h2{
       }
 
       .contactInfo{
-        font-size: 20px;
         font-weight: bold;
-        margin: -100px 20px 20px 275px;
-        justify-content: center;
+        margin-top: 70px;
+        margin-left: 50px;
+        font-size: 15px;
         padding: 0px 10px 10px 10px;
         color: var(--dark);
-        /* width: 50px; */
+        width: 60%; 
     }
 
+    footer h2{
+      margin-left: -20px;
+      font-size: 30px;
   }
+
+  .Info {
+      margin-left: 70px;
+  }
+
+  }
+
+   /* Small smartphones - image placeholders change color */
+@media screen and (max-width: 1669px) {
+    .MernImg img{
+        width: 655px;
+        margin: 5px 3px 2px 0px
+        
+      }
+
+      .NodeImg img{
+        width: 655px;
+        margin-left: 0px;
+      }
+
+      .NodeImg h2, .MernImg h2{
+        left: 3px;
+        position: absolute;
+      }
+
+      .FirstSection div {
+        height: 140px;
+      }
+
+      .firstDiv img, .secondDiv img, .thirdDiv img, .forthDiv img{
+        width: 327px;
+      }
+
+      .firstDiv img {
+        margin-left: 260px;
+      }
+
+      .thirdDiv img {
+        margin-left: 3px;
+      }
+
+      .firstDiv h2 {
+        left: 260px;
+      }
+
+    
+}
 
 
   /* Small smartphones - image placeholders change color */
 @media screen and (max-width: 576px) {
     
+    .AboutMe {
+        margin-left: -20px;
+        font-size: 30px;
+    }
+
+    .Me {
+        margin-left: 45px;
+    }
+
+    .EugeneImg {
+        margin-right: 0px;
+    }
+
+    .FirstSection div {
+        height: 340px;
+      }
+
+      .spanParagraph {
+        right: 50px;
+      }
+
+      .work {
+        margin-left: -15px;
+        font-size: 30px;
+      }
+
+      .MernImg {
+        width: 400px;
+      }
+
+    
+
+      .NodeImg  {
+        width: 400px;
+        margin-left: 108px;
+      }
+
+      .NodeImg img {
+        margin-bottom: 1px;
+      }
+
+      .MernImg img {
+        margin-bottom: 1px;
+      }
+
+      .firstDiv img, .secondDiv img, .thirdDiv img, .forthDiv img {
+        width: 400px;
+        margin-left: 108px;
+      }
+
+      .firstDiv h2, .secondDiv h2, .thirdDiv h2, .forthDiv h2 {
+        left: 110px;
+      }
+
+    footer h2{
+        margin-left: -20px;
+        font-size: 30px;
+    }
+
+    .Info {
+        margin-left: 70px;
+    }
+
+    .contactInfo {
+        margin-top: -70px;
+        margin-left: 150px;
+        font-size: 12px;
+    }
+
+  
+    .thirdDiv {
+      margin-left: 0px;
+    }
+
     
   }
